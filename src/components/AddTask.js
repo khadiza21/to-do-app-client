@@ -6,6 +6,7 @@ import auth from "../firebase.init";
 
 const AddTask = () => {
   const { register, handleSubmit, reset } = useForm();
+  
   const [user] = useAuthState(auth);
 
   const onSubmit = (data) => {

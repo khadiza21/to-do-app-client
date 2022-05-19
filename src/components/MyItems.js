@@ -29,7 +29,7 @@ const MyItems = () => {
         .then((res) => res.json())
         .then((deleteTask) => {
           console.log(deleteTask);
-          toast("Delivered One Item!");
+          toast("Delete this task!");
           const remaining = tasks.filter((task) => task._id !== id);
           setTasks(remaining);
         });
