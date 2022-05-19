@@ -10,7 +10,7 @@ const AddTask = () => {
 
   const onSubmit = (data) => {
     console.log(data);
-    const url = `http://localhost:5000/home`;
+    const url = `https://cryptic-hollows-60435.herokuapp.com/home`;
     fetch(url, {
       method: "POST",
       headers: {
@@ -29,7 +29,7 @@ const AddTask = () => {
   return (
     <div className="container mx-auto my-5 pb-5">
       <p className="text-danger text-center">
-        Make Sure Your Email Is Send IN TIME OF Adding Task. Otherwise Cannot
+        Make Sure Your Email Is Sent IN TIME OF Adding Task. Otherwise Cannot
         see your Tasks{" "}
       </p>
       {console.log(user)}
@@ -60,7 +60,7 @@ const AddTask = () => {
         <input
           className="btn btn-success mb-3 py-2 fw-bold"
           type="submit"
-          value="Add New Task"
+          value="Add Task"
         />
       </form>
     </div>

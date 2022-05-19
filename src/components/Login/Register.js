@@ -46,8 +46,6 @@ const Register = () => {
     
         await createUserWithEmailAndPassword(email, password);
         await updateProfile({ displayName: name });
-        // await updateProfile({ displayName, photoURL });
-        // alert('Updated profile');
         console.log("Updated profile");
         navigate("/home");
     
