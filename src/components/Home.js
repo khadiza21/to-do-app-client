@@ -1,9 +1,13 @@
 import React from 'react';
+import AddTask from './AddTask';
+import MyItems from './MyItems';
+
 
 const Home = () => {
     return (
         <div>
-            <p>home</p>
+         <AddTask></AddTask>
+         <MyItems></MyItems>
         </div>
     );
 };

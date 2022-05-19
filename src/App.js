@@ -9,6 +9,7 @@ import Footer from "./components/Footer";
 import Login from "./components/Login/Login";
 import Register from "./components/Login/Register";
 import RequireAuth from "./components/Login/RequireAuth";
+import "react-toastify/dist/ReactToastify.css";
 
 function App() {
   return (
